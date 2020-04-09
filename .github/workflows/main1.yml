@@ -1,0 +1,10 @@
+# This is a basic workflow to help you get started with Actions
+
+name: "todoist-box"
+description: "Update a pinned gist to contain Todoist stats"
+branding:
+  icon: "check-square"
+  color: "red"
+runs:
+  using: "node12"
+  main: "dist/index.js"
